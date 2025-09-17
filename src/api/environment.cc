@@ -845,7 +845,6 @@ void DefaultProcessExitHandler(Environment* env, int exit_code) {
   // in node_v8_platform-inl.h
   uv_library_shutdown();
   DisposePlatform();
-  exit(exit_code);
 }
 
 
